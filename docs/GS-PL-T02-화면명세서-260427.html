@@ -471,7 +471,7 @@ const CONSTITUTION_FILES = [
   {id:'body',       emoji:'\u270D\uFE0F', name:'\uBCF8\uB860\uD3B8',         file:'\uD5CC\uBC95_\uBCF8\uB860.html',                       color:'#059669', sub:'\uC81C9~11\uC870'},
   {id:'conclusion', emoji:'\u{1F3C1}',    name:'\uACB0\uB860\uD3B8',         file:'\uD5CC\uBC95_\uACB0\uB860.html',                       color:'#d97706', sub:'\uC81C12~14\uC870'}
 ];
-const CONSTITUTION_BASE = 'file:///Users/ks.kim/Documents/kks/EduTech_OREO_Writing/Client/';
+const CONSTITUTION_BASE = 'rules/';
 let currentConstitutionId = 'overview'; // 'overview' | 'hub' | 'common' | 'intro' | 'body' | 'conclusion'
 
 function renderLLMPolicySide() {
@@ -2781,7 +2781,7 @@ const SCREENS = {
 
 // ═══ SDS: 헌법 (분리 파일 링크) ═══
 'sds-constitution': () => {
-  const baseUrl = 'file:///Users/ks.kim/Documents/kks/EduTech_OREO_Writing/Client/';
+  const baseUrl = 'rules/';
   return `<div class="sds-screen">
     <h2>📜 헌법 — 주장글쓰기 규칙 (4파일 분리)</h2>
     <div class="sds-lead">
